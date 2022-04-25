@@ -1,0 +1,27 @@
+1 npm init -y :The -y flag when passed to NPM commands tells the generator to use the defaults instead of asking questions.
+It will simply generate an empty npm project without going through an interactive process.
+The -y stands for yes.
+
+2 npm install --save express -- what is save
+
+3 add "type":"module" in package.json for using the newer syntax for import and export, old syntax like
+const express = require('express') new import express from 'express';
+
+import bodyParser from 'body-parser';
+This allow us to take incoming post request bodies.
+
+json is very similar to javascript object, just in json each property and value must be quotted by double quotation marks
+instead of normal object where we can also use single quotation.
+
+4 npm install --save-dev nodemon
+--save-dev is used to save the package for development purpose. Example: unit tests, minification..
+--save is used to save the package required for the application to run.
+
+5 In package.json file by writing in "Scripts" == "start":"nodemon index.js" basically giving the command for what we 
+give with nodemon then just simply write npm start for run our application.
+
+6 Express is all about routing.
+
+7 With our browser we can only send make get request.
+
+node_modules
